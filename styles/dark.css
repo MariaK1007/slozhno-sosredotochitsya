@@ -5,6 +5,25 @@
 */
 
 .page.theme_dark {
+  --font-family: "IBM Plex Mono", sans-serif;
+  --color-bg: #000028;
+  --color-shadow: #ff0070;
+  --color-text: #f1b2ce;
+  --main-color-title: #db00ff;
+  --button-text: var(--color-shadow);
+  --corners-color: var(--color-shadow);
+  --quote-text: var(--color-bg);
+  --post-title: var(--color-shadow);
+  --bg-title-color: var(--color-shadow);
+  --color-title: var(--color-bg);
+  --effect-shadow: var(--color-shadow);
+  --main-title: var(--main-color-title);
+  --main-color-shadow-title: var(--color-shadow);
+  --footer-color-title: var(--main-color-title);
+  --footer-color-shadow-title: var(--color-shadow);
+  --main-t-theme: var(--main-color-title);
+  --main-t-sh-theme: var(--color-shadow);
+  --background-image: url(../images/cover-image-dark.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
