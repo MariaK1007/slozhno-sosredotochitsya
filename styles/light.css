@@ -5,11 +5,11 @@
 */
 .page.theme_light {
   --font-family: "IBM Plex Mono", monospace;
-  --color-footer: #ffc2e6;
+  --color-shadow-theme: #ff8dcb;
   --color-bg: #fff1f7;
   --color-shadow: #ff0070;
   --color-text: #353430;
-  --main-color-title: #ff8dcb;
+  --main-color-title: #ffc2e6;
   --color-hover-light-theme:rgba(50, 49, 45, 0.4);
   --corners-color: var(--color-text);
   --quote-text: var(--color-text);
@@ -20,10 +20,8 @@
   --effect-shadow: var(--main-color-title);
   --main-title: var(--main-color-title);
   --main-color-shadow-title: var(--color-shadow);
-  --footer-color-title: var(--main-color-title);
-  --footer-color-shadow-title: var(--color-shadow);
-  --main-title-theme: var(--color-footer);
-  --main-title-shadow-theme: var(--main-color-title);
+  --main-title-theme: var(--main-color-title);
+  --main-title-shadow-theme: var(--color-shadow-theme);
   --hover-shadow: var(--color-hover-light-theme);
   --background-image: url(../images/cover-image-light.png);
 
@@ -51,9 +49,7 @@
     --effect-shadow: var(--main-color-title);
     --main-title: var(--main-color-title);
     --main-color-shadow-title: var(--color-shadow);
-    --footer-color-title: var(--main-color-title);
-    --footer-color-shadow-title: var(--color-shadow);
-    --main-title-theme: var(--color-footer);
+      --main-title-theme: var(--color-footer);
     --main-title-shadow-theme: var(--main-color-title);
     --hover-shadow: var(--color-hover-light-theme);
     --background-image: url(../images/cover-image-light.png);

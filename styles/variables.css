@@ -8,7 +8,6 @@
   --color-shadow: #ff0070;
   --color-text: #f1b2ce;
   --main-color-title: #db00ff;
-  /* --color-hover-light-theme:rgba(50, 49, 45, 0.4); */
   --color-hover-dark-theme: rgba(255, 0, 112, 0.4);
   --button-text: var(--color-shadow);
   --corners-color: var(--color-shadow);
@@ -19,8 +18,6 @@
   --effect-shadow: var(--color-shadow);
   --main-title: var(--main-color-title);
   --main-color-shadow-title: var(--color-shadow);
-  --footer-color-title: var(--main-color-title);
-  --footer-color-shadow-title: var(--color-shadow);
   --main-title-theme: var(--main-color-title);
   --main-title-shadow-theme: var(--color-shadow);
   --hover-shadow: var(--color-hover-dark-theme);
