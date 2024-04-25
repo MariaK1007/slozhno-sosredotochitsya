@@ -19,8 +19,4 @@
     --main-title-shadow-theme: var(--color-shadow);
     --hover-shadow: var(--color-hover-dark-theme);
     --background-image: url(../images/cover-image-dark.png);
-  
-  .decoration__text {
-    display: flex;
-  }
 }
